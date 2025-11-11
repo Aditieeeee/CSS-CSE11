@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="" href="/style.css"
+</head>
+<body>
+    <!-- inline styling : elemnt ke andar color  -->
+    <p style="color: blue">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Nam, ab voluptates id consequuntur doloremque eum quidem rem sapiente, dolorum, cum optio eius incidunt! </p>
+
+    <h1>CSS selectors</h1>
+   <!-- internal styling : under tag style tag ke nadar oproperties kar rahe aad -->
+   <style>
+h1{
+    color:green
+}
+   </style>
+
+<!-- external styling : seperate file use link tag , link tag head ke andar   -->
+
+ <!-- calss sele ctor: can be used for many elemnts at one (specific kisi pe specific krna hai kuch to use class )
+  by: we use " ." to ytarget class
+  syntax: .class_name  
+  stylin of is id > than the stylin of class>
+  id: to a element this is uique : id se jo property hogi wo is hi elemnts ke liye hogi sirf
+  synatx: #id-name-->
+  <p class="para" id="gg" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, atque.</p>
+  <p class ="secp">Lorem ipsum dolor sit amet.</p>
+<p id="ag"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cumque minus commodi nihil et dolorum.</p>
+<style>
+p{
+    color:aqua
+}
+.para{
+    color: blue;
+}
+.secp{
+    color: aquamarine;
+    text-align: center;
+}
+#ag{
+    color: darkolivegreen;
+}
+#gg{
+    color: brown;
+}
+</style>
+
+<!-- you assign one class to thE multiple elemnts 
+ or you can assign multiple classes to the single element "VERY IMPORTANT"  -->
+<!-- css properties
+ 1 color: change color by :: color:color-name (red) ,rgb:(in decimals values in coordinates . search to get color)  , hsl : by lightness ( percenatge) opaquity , hsla :  , hexadecimal:: #RRGGBB , rgba: 0 : light 1: thick dark 0.5 : medim etc.
+ 
+ 2 same as for background color
+ 
+ 3 TEXT ALIGN: syntax: text-align: ;
+   by deafult align is left
+   start = depend on language ki left se jaana hi ya right (hinsdi right and urdu left)
+   initial=
+   inherit= takes prent to sub
+   justify= adjust from both sifdes of line 
+
+   4 Font Size:
+   em : relative unit , jo bhi parent elemnet hai uske hisaab se adjust karleta hai
+   rem:r (root element) changes all sizes as to all html elements
+   % : parent ka % kaise distribute hoga size
+   samller larger : 
+          -->
+
+  
+</body>
+</html>
