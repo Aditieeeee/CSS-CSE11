@@ -1,0 +1,38 @@
+
+.box{
+    width: 100px;
+    height: 100px;
+    background-color: lightblue;
+    margin: 10px;
+    display: inline-block;
+}
+
+.container{
+   height: auto;
+    border: 2px solid black;
+    text-align: center;
+
+}
+.container .box1{
+    display: inline-block;
+  background-color: rgb(121, 147, 35);
+}
+
+.container .box2{
+    display: inline-block;
+    background-color: rgb(223, 36, 36);
+}
+.container .box3{
+    display: inline-block;
+    background-color: rgb(144, 144, 239);
+}
+
+.article{
+    width: 600px;
+    border: 2px solid gray;
+    padding: 10px;
+    margin: 20px;
+    font-family: Arial, sans-serif;
+    font-size: 16px;
+    line-height: 1.5;
+}

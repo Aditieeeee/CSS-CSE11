@@ -3,8 +3,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
-    <link rel="" href="/style.css"
+    <title>css</title>
+    <link rel="stylesheet" href="/style.css">
 </head>
 <body>
     <!-- inline styling : elemnt ke andar color  -->
@@ -12,6 +12,7 @@
 
     <h1>CSS selectors</h1>
    <!-- internal styling : under tag style tag ke nadar oproperties kar rahe aad -->
+
    <style>
 h1{
     color:green
@@ -23,12 +24,14 @@ h1{
  <!-- calss sele ctor: can be used for many elemnts at one (specific kisi pe specific krna hai kuch to use class )
   by: we use " ." to ytarget class
   syntax: .class_name  
+  inline>internal>external
   stylin of is id > than the stylin of class>
   id: to a element this is uique : id se jo property hogi wo is hi elemnts ke liye hogi sirf
   synatx: #id-name-->
   <p class="para" id="gg" >Lorem ipsum, dolor sit amet consectetur adipisicing elit. Aspernatur, atque.</p>
   <p class ="secp">Lorem ipsum dolor sit amet.</p>
 <p id="ag"> Lorem ipsum dolor sit amet consectetur adipisicing elit. Soluta cumque minus commodi nihil et dolorum.</p>
+
 <style>
 p{
     color:aqua
@@ -39,11 +42,13 @@ p{
 .secp{
     color: aquamarine;
     text-align: center;
+    font-size:25px;
 }
 #ag{
     color: darkolivegreen;
 }
 #gg{
+    
     color: brown;
 }
 </style>
@@ -67,8 +72,37 @@ p{
    rem:r (root element) changes all sizes as to all html elements
    % : parent ka % kaise distribute hoga size
    samller larger : 
+          default size: 16 px 
           -->
-
+<!-- PADDING: internal space etween  -->
   
+<div>hello world</div>
+    
+<p style ="color:brown">inline styling</p>
+
+<div>
+<h2>This is External Styling</h2>
+<p>this paragraph is styled using External Css</p>
+</div>
+
+<!-- DISPLAY PROPERTY:
+ INLINE LEMENT KO B;LOCK PROPERTY DENI HAI: BY display:block =  ( alga element in new line) use with in inline elements
+ vice versa for : display:inline= for block elements = same line me hi apply karna hai ptoperties.
+
+ we can change default property of elements
+
+ Display:inline-block :::: 
+ 
+ -->
+
+<div class="container">
+  <div class ="box.box1"></div>
+  <div class="box.box2"></div>
+  <div class="box.box3"></div>
+  
+  
+</div>
+
+
 </body>
 </html>
