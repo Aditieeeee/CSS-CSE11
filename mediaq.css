@@ -1,0 +1,52 @@
+@media (max-width:768px){
+    p{
+        font-size: 34px;
+    }
+}
+@media(min-width:234px) {
+    p{
+        font-size: 23px;
+    }
+}
+/* range : btewen max and min */
+/* oeientaion :
+landscape 
+portratit 
+same synatx as media but condition vanges to orientaion  */
+
+/* RESOLUTION:
+min-resolution same as media syntax */
+
+.box{
+    height: 100px;
+    width: 100%;
+    background-color: aquamarine;}
+
+    @media(min-width:768px){
+        .box{
+            background: rgb(233, 161, 68);
+        }
+    }
+
+    /* li{ */
+        /* no dot before list */
+        /* list-style: none;
+    } */
+
+    nav ul{
+        display: flex;
+        justify-content: space-around;
+    }
+
+    .container{
+        height: 300px;
+        width: auto;
+        background-color: blueviolet;
+        border-color: 250px rgb(5, 183, 124);
+    }
+
+    @media(max-width:768px){
+        .container{
+            background: rgb(188, 172, 172);
+        }
+    }
