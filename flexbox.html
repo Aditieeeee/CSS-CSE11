@@ -1,0 +1,81 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>flexbox</title>
+    <link rel="stylesheet" href="style1.css">
+</head>
+<body>
+    
+<!-- flexbox: containetrs
+             mai axis horizpntal orienattion : x axis
+              cross axis vertical: y axis
+               col:  main axis : vertical 
+               cross axis : hori-->
+<!-- a parent container -->
+<div class="container">
+    <div class="item">item1</div>
+    <div class="item item2">item2</div>
+    <div class="item">item3</div>
+    <div class="item">item4</div>
+</div>
+<!-- [propertieserties for parent ]]
+  <<<< display flex:: 1 d flex container create hoga
+  <<< flex-direction :  main axis depend on flex direction ::deafult: row ::left to right child moves
+  row reverse:: right to left
+  column : top to bottom    
+    column reverse : bottom to top
+flex-wrap:::: no wrap : default all in one line :: all items in single line :: 
+deafult: squueze all items in one row(no wrap   )
+to not adjsut the size of items use wrap : items move to next line if no space
+wrap-reverse : items move to next line but in reverse order (rarely used)
+flex-flow : shorthand for flex-direction and flex-wrap (dono peoperty ek saath likh sakte hain)
+
+vvvvvvv imp:::  justify-content ::only apply on main axis 
+flex-start : default : items start from start of main axis
+flex-end : items move to end of main axis
+center : items center in main axis  
+space-between : equal space between child items(no space on corner)
+space-around : equal space around child items( half space on corner than between items )
+space-evenly : equal space between items and edges of container(dono side left right equal sopacing)
+
+align-items : apply on cross axis (vertical axis)
+flex-start : items start from start of cross axis (top)[default]
+flex-end : items move to end of cross axis (bottom)
+baseline:: beech me align hoga sabhi items ka text
+center : items center on cross axis
+stretch : items stretch to fill container (default behavior if no height is set on items){ occu[y all space on [page]]}
+  
+
+<< diif between align-items and align-content >>
+
+
+align-content : on multiple rows (rowwise spacing ) 
+increase child to get mutuple rows  ,, on cross axis
+flex-start : rows move to start of cross axis
+flex-end : rows move to end of cross axis
+center : rows center on cross axis
+space-between : equal space between rows(no space on corner)
+space-around : equal space around rows( half space on corner than between rows )
+strectch : rows stretch to fill container (default behavior if no height is set on items)
+
+<<<<<gap: only gap given :: it will apply both to tows and cols , if single value given 
+if 2 given then , one to row and one to column>>>
+    row-gap :  gap between rows
+
+    THESE PEROPERTIES ARE APPLICABLE FOR PARENT CONATINER
+-->
+
+<!-- CHILD PROPERTY -->
+ <!-- ORDER :all childs order are zero , 
+  jitni -ve value :: utna aage aayega item
+  ASCENDING ORDER 
+  
+  flex-grow: for s[ecific items] : increase space
+  flex-shrink : for specific items  : reduce-->
+
+
+    
+</body>
+</html>
