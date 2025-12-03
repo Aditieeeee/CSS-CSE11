@@ -1,0 +1,63 @@
+.container{
+    display:grid;
+    height: 500px;
+    width: 700px;
+    background-color: lightseagreen;
+    border: solid  2px black;
+    /* grid-template-columns: 1fr 1fr 1fr 1fr; */
+    /* grid-template-columns: repeat(4, 1fr);
+    grid-template-rows: repeat(3, 1fr); */
+    /* grid-template-columns: repeat(4,100px);
+    grid-template-rows: repeat(3,100px); */
+    /* grid-template-columns: minmax(100px , 1fr); */
+
+    /* gridtempareas: dividing areas */
+    /* grid-template-areas:  "header header header header" "main main . sidebar" "footer footer footer footer"; */
+    /* harder item1 */ /* . is for empty block */
+/* wher to writre size content : child ki height width hata do*/
+
+column-gap: 10px;
+justify-items: center;
+/* stretch will not use becoz of height and width */
+align-items: center;
+justify-content:center ;
+align-content: space-around;/*between rows*/
+/* for stretch :height nd width should not be there */
+/* grid-auto-flow: column; */
+
+
+
+}
+
+.item{
+    height: 100px;
+    width: 100px;
+    border:  solid rgb(10, 10, 14);
+    background-color: rgb(169, 20, 20);
+    text-align: center;
+    align-content: center;
+    color:white;
+    
+}
+/* 
+.item1{
+    grid-area: header;
+
+}
+
+.item2{
+    grid-area:main;
+}
+
+.item3{
+    grid-area: sidebar;
+}
+
+.item4{
+    grid-area: footer;
+} */
+
+/* .item1{
+    grid-column: 1;
+    grid-row: 1/3;
+} */
