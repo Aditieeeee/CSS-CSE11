@@ -1,0 +1,61 @@
+body{
+    margin:0;
+    padding: 0%;
+}
+
+nav{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: rgb(5, 183, 124);
+    padding: 1rem;
+    /* 1rem : parent ke equivalent root ke same to same */
+}
+
+.logo{
+    color: white;
+    font-size: 1.5rem;
+}
+
+.menu{
+    display: none;
+    flex-direction: column;
+    background: #444;
+    position: absolute;
+    top: 60px;
+    right: 20px;
+    width: 150px;
+}
+
+.menu a{
+    color: white;
+    padding: 1rem;
+    text-decoration: none;
+    display: block;
+}
+
+.hamburger{
+    font-size: 2rem;
+    color: violet;
+    cursor: pointer;/* pointer on hover */
+}
+
+/* medaiqueries */
+/*break point on tab and desktop view */
+@media(min-width:768px){
+    .menu{
+        display: flex;
+        position: static;
+        flex-direction: row;/* */
+        background: none;
+        width: auto;
+    }
+/* 
+    .menu a{
+        padding: 0 1rem;
+    } */
+
+    .hamburger{
+        display: none;
+        /* hide hamburger on desktop view*/
+    }}
